@@ -1,0 +1,216 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos del encabezado y navegación */
+header {
+    background-color: white;
+    color: black;
+    /* padding: 20px 0; */
+    /* position: fixed; */
+    width: 100%;
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff6f61;
+}
+
+/* Estilos de la sección de héroe */
+.hero {
+    background-image: url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    /* padding: 200px 0; */
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff564b;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos de las tarjetas de proyectos */
+.proyectos {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.proyecto-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.proyecto-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.proyecto-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.proyecto-card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.proyecto-card a {
+    display: block;
+    text-align: center;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.proyecto-card a:hover {
+    background-color: #ff564b;
+}
+
+/* Estilos de la sección de héroe */
+.hero {
+    background-color: white;
+    color: white;
+    /* padding: 60px 0; */
+    text-align: center;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.carousel-caption h1 {
+    font-size: 36px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff564b;
+}
+
+/* Estilos personalizados para el navbar */
+.navbar {
+    background-color: white;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Coloca el navbar en la parte superior */
+    width: 100%; /* Abarca todo el ancho de la página */
+    z-index: 1000; /* Coloca el navbar en una capa superior */
+}
+
+/* Resto de los estilos para el navbar (navbar-brand, navbar-toggler, nav-link, etc.) */
+
+/* Estilos para el menú desplegable (hamburguesa) */
+.navbar-collapse {
+    background-color: white;
+    z-index: 2; /* Asegura que el menú desplegable esté en la capa 2 (superpuesto a los elementos posteriores) */
+}
+
+/* Resto de los estilos para el menú desplegable (hamburguesa) */
+/* Estilos para el logotipo */
+.logo {
+    display: flex;
+    align-items: center; /* Centra verticalmente el logotipo */
+    padding: 10px; /* Añade espacio alrededor del logotipo */
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el ancho máximo del logotipo según tu diseño */
+    height: auto;
+    border-radius: 5%;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-top: 40px; /* Añade un margen superior de 40px a los títulos */
+    margin-bottom: 40px; /* Añade un margen inferior de 20px a los títulos */
+}
+
+
