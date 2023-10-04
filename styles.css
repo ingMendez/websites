@@ -41,7 +41,7 @@ header {
     background-position: center;
     color: white;
     text-align: center;
-    /* padding: 200px 0; */
+     padding: 100px 0; 
 }
 
 .hero-text {
@@ -147,7 +147,7 @@ footer {
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .carousel-caption h1 {
@@ -190,7 +190,7 @@ footer {
 
 /* Estilos para el menú desplegable (hamburguesa) */
 .navbar-collapse {
-    background-color: white;
+    background-color: rgb(199, 22, 22);
     z-index: 2; /* Asegura que el menú desplegable esté en la capa 2 (superpuesto a los elementos posteriores) */
 }
 
