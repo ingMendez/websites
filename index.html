@@ -8,10 +8,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"/> 
+    rel="stylesheet"/> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Google Fonts -->
 <link
@@ -19,7 +19,7 @@
   rel="stylesheet"
 />
 <!-- MDB -->
-<link rel="stylesheet" href="css/ionicons.min.css">
+<!-- <link rel="stylesheet" href="css/ionicons.min.css"> -->
 
 
 </head>
@@ -30,9 +30,9 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
             <div class="logo">
-                <img src="img-1.jpg" alt="Logo del Proyecto" class="rounded-circle">
+                <img src="img-1.jpg" alt="Logo del Proyecto">
             </div>
-            <div class="container">
+            <!-- <div class="container"> -->
                 <a class="navbar-brand" href="index.html">Proyectos Construcción</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +54,9 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            <!-- </div> -->
         </nav>
+        
 
     </header>
 <br/>
@@ -418,27 +419,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="scripts.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
     <script>
         // Obtener el botón de hamburguesa y el menú desplegable
         var navbarToggler = document.querySelector(".navbar-toggler");
         var navbarNav = document.querySelector("#navbarNav");
     
         // Escuchar clics en cualquier parte del documento
-        document.addEventListener("click", function(event) {
-            var isClickInsideNavbar = navbarNav.contains(event.target);
-            var isClickOnToggler = navbarToggler.contains(event.target);
+        // document.addEventListener("click", function(event) {
+        //     var isClickInsideNavbar = navbarNav.contains(event.target);
+        //     var isClickOnToggler = navbarToggler.contains(event.target);
     
-            // Si el clic no está dentro del menú y no está en el botón de hamburguesa, cierra el menú
-            if (!isClickInsideNavbar && !isClickOnToggler) {
-                var isMenuOpen = navbarNav.classList.contains("show");
-                if (isMenuOpen) {
-                    navbarToggler.click(); // Cierra el menú
-                }
-            }
-        });
+        //     // Si el clic no está dentro del menú y no está en el botón de hamburguesa, cierra el menú
+        //     if (!isClickInsideNavbar && !isClickOnToggler) {
+        //         var isMenuOpen = navbarNav.classList.contains("show");
+        //         if (isMenuOpen) {
+        //             navbarToggler.click(); // Cierra el menú
+        //         }
+        //     }else{
+                
+        //     }
+        // });
+        
     </script>
     
 </body>
